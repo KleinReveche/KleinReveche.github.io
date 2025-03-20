@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,14 +12,33 @@
     <link href="/site.webmanifest" rel="manifest">
 </head>
 <body>
-<div id="loading-indicator">
-    <div class="spinner">
-        <div class="icon">
-            <img alt="FMMP Logo" src="assets/fmmp.png">
-        </div>
+<div class="loading-container" id="loading-screen">
+    <div class="particles" id="particles"></div>
+
+    <div class="globe-container">
+        <div class="globe"></div>
+        <div class="globe"></div>
+        <div class="globe"></div>
+        <div class="continents"></div>
+    </div>
+
+    <div class="logo-container">
+        <div class="logo-spinner"></div>
+        <div class="pulse"></div>
+        <div class="logo-bg"></div>
+        <img alt="Logo" class="logo-img" src="/assets/fmmp.png">
+    </div>
+
+    <div class="loading-title">Free Methodist Missions Philippines</div>
+    <div class="loading-subtitle">"Communities of believers on mission with God in the Philippines
+        and beyond"
+    </div>
+    <div class="loading-text">Loading</div>
+    <div class="bible-verse">
+        "Therefore go and make disciples of all nations..." - Matthew 28:19
     </div>
 </div>
-<script src="fmmp-mobilization.js" type="application/javascript"></script>
 <script src="spinner.js" type="application/javascript"></script>
+<script src="fmmp-mobilization.js" type="application/javascript"></script>
 </body>
 </html>
